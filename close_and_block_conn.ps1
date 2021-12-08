@@ -1,6 +1,4 @@
-﻿Import-Module .\rac
-
-Param (
+﻿Param (
     [string]$ClusterName,
     [string]$InfobaseName,
     [string]$InfobaseUser,
