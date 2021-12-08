@@ -17,7 +17,7 @@ else {
 $platforms = Get-ChildItem $parentCatalog | Where-Object { $_.Name -match $Version } | Sort-Object { $_.Name } -Descending
 
 if ($platforms.Length -eq 0) {
-    throw "Couldn't get path to the rac.exe"
+    throw "Couldn't get path to the 1cv8.exe"
 }
 else {
     $path = $platforms[0].FullName + "\bin\1cv8.exe"
